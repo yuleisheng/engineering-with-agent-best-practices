@@ -32,6 +32,8 @@ Tan's **Poteto pyramid** puts API design and automated checks ahead of prose for
 
 Pocock puts deterministic checks before automated and human review, echoing Tan's preference for enforcing repeatable rules in code. He describes agent sessions or PR reviews as inputs to **Retro**. The [v1.3.0 skill](https://github.com/mattpocock/skills/blob/v1.3.0/skills/engineering/retro/SKILL.md) reads session material and suggests deterministic checks for mechanical violations and `CODING_STANDARDS.md` for judgment calls. Two diffs and their review comments are enough to start without the skill.
 
+Yan describes agents analyzing all of Cognition's tracked agent runs and posting improvement ideas in Slack every day, such as a lint change to catch “20% more” bugs before AI code review. Those figures are example suggestions, not measured results. Like Retro, the output is a proposal to verify against the next comparable PRs.
+
 ## Limits
 
 A check enforces only what it measures. Don't encode a one-off preference as a lint rule or ban an API before there is a supported way to do the legitimate work. If the agent couldn't find the right pattern, [fix the pointer](make-good-patterns-discoverable.md). If the correction requires judgment, [give the reviewer the standard](review-against-repo-standards.md) instead of inventing a lint rule.
@@ -41,3 +43,5 @@ A check enforces only what it measures. Don't encode a one-off preference as a l
 Lauren Tan, *All Code Is Slop (Except Mine)*: [2:03–2:59](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=123s) (Poteto pyramid), [5:00](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=300s) (introducing Dune), [5:34–6:09](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=334s) (React Effect restriction), and [8:56–9:21](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=536s) (actionable lint diagnostics). See the [Tan source review](../sources/lauren-tan-all-code-is-slop.md).
 
 Matt Pocock, *Fixing the PR Bottleneck*: [2:50–3:36](https://www.youtube.com/watch?v=LlgiOCmFG_w&t=170s) (checks before automated and human review) and [20:14–21:44](https://www.youtube.com/watch?v=LlgiOCmFG_w&t=1214s) (turn repeat findings into checks, standards, or better pointers). See the [Pocock source review](../sources/matt-pocock-fixing-the-pr-bottleneck.md). [Google's SRE Workbook](https://sre.google/workbook/postmortem-culture/) makes a similar case for concrete, verifiable prevention work after incidents; it doesn't evaluate Retro.
+
+Walden Yan, *40x More Merged PRs With 2.7x the Engineers*: [7:05–8:03](https://www.youtube.com/watch?v=U92J5mCDLMc&t=425s) (agents mining runs for workflow fixes). See the [Yan source review](../sources/walden-yan-40x-more-merged-prs.md).
