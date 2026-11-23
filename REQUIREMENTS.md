@@ -5,7 +5,7 @@ This repo collects practices over time. The goal is better engineering with codi
 ## Evaluate each source
 
 1. Read or watch the underlying source, not just its title or summary. Record the author, title, date if known, and the original URL. Say what you reviewed and what you couldn't verify.
-2. Separate **what the source says**, **what the evidence supports**, and **what this catalog recommends**. Treat a demo, anecdote, self-reported metric, or vendor claim as such. Look for a counterexample and name the assumption that would make adoption a bad idea.
+2. Separate **what the source says**, **what the evidence supports**, and **what this catalog recommends**. Treat a demo, anecdote, self-reported metric, or vendor claim as such. For material claims, record independent corroboration or a counterexample when available; otherwise label the evidence as single-source. Name the assumption that would make adoption a bad idea.
 3. Save a short review under `sources/`. For material claims, record a verdict (keep, keep with limits, reject, or defer), the reason, and a link to any resulting practice. Record rejected or deferred claims there, not in the catalog as recommendations. For video claims, link to the relevant timestamp in the exact recording reviewed.
 
 ## Write practices people can apply quickly

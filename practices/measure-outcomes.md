@@ -18,12 +18,14 @@
 
 ## Source example
 
-Tan compares startup, typing responsiveness, and opening and switching chats against launch for Grok Bot's **Electron** client. Electron is the app framework; the talk doesn't specify a performance measurement tool.
+The chart shows 10,926 October PR merges, not deployments. Tan separately says about 11,000 PRs shipped to production and reports about 0.5% PR reverts, without defining the revert cohort, denominator, or follow-up window.
+
+Tan reports faster startup, typing, and opening or switching chats since launch for Grok Bot's **Electron** client. The talk gives no benchmark numbers, measurement tool, or controlled comparison.
 
 ## Limits
 
-PR count depends on how work is split, and revert rate depends on how the team responds to failures. A before/after comparison can inform a decision; it can't isolate the effect of agents from other changes in the same period.
+PR count depends on how work is split, and revert rate depends on how the team responds to failures. PR revert rate is not [DORA change fail rate](https://dora.dev/guides/dora-metrics), the share of deployments requiring immediate intervention, such as a rollback or hotfix. A before/after comparison can inform a decision; it can't isolate the effect of agents from other changes in the same period.
 
 ## Sources
 
-Lauren Tan, *All Code Is Slop (Except Mine)*, [13:32–14:56](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=812s) (team-reported throughput, reverts, and Electron client performance). The measurement checklist is this catalog's adaptation, not the team's reported methodology. See the [source review](../sources/lauren-tan-all-code-is-slop.md).
+Lauren Tan, *All Code Is Slop (Except Mine)*: [13:30 chart](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=810s) (merges), [13:39–13:44](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=819s) (reported shipping), [14:25–14:29](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=865s) (reported PR reverts), and [14:38–14:56](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=878s) (reported Electron client performance). The measurement checklist is this catalog's adaptation, not the team's reported methodology. See the [source review](../sources/lauren-tan-all-code-is-slop.md).
