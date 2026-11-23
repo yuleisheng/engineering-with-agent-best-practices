@@ -1,6 +1,6 @@
 # Verify real behavior with a small feature map
 
-**Use when:** An agent can edit a feature but can't reliably find it, run it, or show that the user-visible behavior matches the request.
+**Use when:** An agent can edit a feature but can't reliably find, run, or verify it. Also use this when CI is green but the tests would pass a wrong implementation.
 
 ## Apply
 

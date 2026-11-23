@@ -28,3 +28,5 @@ Don't rename directories or rewrite working code just to make it prettier for an
 ## Sources
 
 Lauren Tan, *All Code Is Slop (Except Mine)*: [4:24–4:55](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=264s) (workarounds become examples), [6:28 slide](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=388s) (Dune directories and import rules), and [15:17–15:32](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=917s) (remove old patterns after preventing new ones). The [*Precedent or Intent?* preprint](https://arxiv.org/html/2610.38244v1) finds that nearby examples and explicit priority rules can influence implementation choices in the API tasks studied; it does not show a general quality gain. See the [source review](../sources/lauren-tan-all-code-is-slop.md).
+
+Matt Pocock, *Fixing the PR Bottleneck*: [2:20–2:50](https://www.youtube.com/watch?v=LlgiOCmFG_w&t=140s) echoes Tan's point: existing code is the environment agents work in, so bad patterns can propagate. See the [Pocock source review](../sources/matt-pocock-fixing-the-pr-bottleneck.md).

@@ -5,7 +5,7 @@ A catalog of practices you can try in one repository without adopting a new agen
 ## Start with one change
 
 - **New repo:** Give an agent [one runnable verification path](practices/verify-real-behavior.md) and [one good example to copy](practices/make-good-patterns-discoverable.md). Put the real commands and example path in the repo's existing agent guidance.
-- **Existing repo:** Pick a mistake reviewers keep correcting. If you can define pass and fail, [make it fail a check](practices/enforce-repeatable-rules.md). If the agent keeps copying the wrong example, [point it to the right one](practices/make-good-patterns-discoverable.md). Don't start with a repo-wide cleanup.
+- **Existing repo:** Pick a mistake reviewers keep correcting. If you can define pass and fail, [make it fail a check](practices/enforce-repeatable-rules.md). If the agent keeps copying the wrong example, [point it to the right one](practices/make-good-patterns-discoverable.md). If the correction needs judgment, [give the reviewer the standard](practices/review-against-repo-standards.md). Don't start with a repo-wide cleanup.
 
 ## Practices
 
@@ -14,6 +14,7 @@ A catalog of practices you can try in one repository without adopting a new agen
 | The same review correction keeps coming back | [Enforce repeatable rules in code or CI](practices/enforce-repeatable-rules.md) |
 | Agents copy outdated patterns or cross module boundaries | [Make the intended pattern easy to find and copy](practices/make-good-patterns-discoverable.md) |
 | The diff looks fine, but nobody ran the affected flow | [Verify real behavior with a small feature map](practices/verify-real-behavior.md) |
+| CI is green, but the tests would pass a wrong implementation | [Check the behavior through an interface real callers use](practices/verify-real-behavior.md#apply) |
 | Happy-path tests miss retries, races, or invalid transitions | [Check the riskiest state transitions](practices/check-state-transitions.md) |
 | Green PRs still miss standards that require judgment | [Review the diff against repo standards in a fresh context](practices/review-against-repo-standards.md) |
 | A small diff might have large or irreversible effects | [Show rollback and blast radius in the PR](practices/show-merge-risk.md) |
