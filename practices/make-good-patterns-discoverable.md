@@ -17,6 +17,10 @@ Adapt this `AGENTS.md` fragment to the repo's real paths and replace the example
 
 Repeat the original search. The recommended example should be findable and runnable, and any remaining legacy example should point users away from copying it.
 
+## Source example
+
+**Dune**, Grok Bot's client framework for **Electron**, separates code into `electron-main/` and `electron-renderer/`. A dependency graph check and lint rules block imports between them; both use `shared/` for common types. The directory names tell agents what runs where, and the checks enforce that boundary.
+
 ## Limits
 
 Don't rename directories or rewrite working code just to make it prettier for an agent. Start where examples have actually caused rework; preserve legitimate alternate patterns and label when to use them.

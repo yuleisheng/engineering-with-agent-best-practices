@@ -16,10 +16,14 @@
 - Result, caveats, and decision:
 ```
 
+## Source example
+
+Tan compares startup, typing responsiveness, and opening and switching chats against launch for Grok Bot's **Electron** client. Electron is the app framework; the talk doesn't specify a performance measurement tool.
+
 ## Limits
 
 PR count depends on how work is split, and revert rate depends on how the team responds to failures. A before/after comparison can inform a decision; it can't isolate the effect of agents from other changes in the same period.
 
 ## Sources
 
-Lauren Tan, *All Code Is Slop (Except Mine)*, [13:32–14:51](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=812s) (team-reported throughput, reverts, and performance). The measurement checklist is this catalog's adaptation, not the team's reported methodology. See the [source review](../sources/lauren-tan-all-code-is-slop.md).
+Lauren Tan, *All Code Is Slop (Except Mine)*, [13:32–14:56](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=812s) (team-reported throughput, reverts, and Electron client performance). The measurement checklist is this catalog's adaptation, not the team's reported methodology. See the [source review](../sources/lauren-tan-all-code-is-slop.md).

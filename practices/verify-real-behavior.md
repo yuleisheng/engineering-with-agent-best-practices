@@ -18,10 +18,14 @@ Copy this feature map entry for each flow you need to make runnable:
 - Record: <command/assertion result and, if helpful, screenshot or clip>
 ```
 
+## Source example
+
+Grok Bot gives agents a reusable CLI to drive the app and access to debugging tools such as the [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/). Tan points to [pstack's `/create-verification-skill`](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md) for creating a repo-specific verification skill with a feature map. Neither is required if your existing runner can exercise the flow and report the result.
+
 ## Limits
 
 A screenshot demonstrates one state, not persistence, accessibility, or behavior across inputs. A green check covers only its assertions. Keep the map small and link to existing tests so it doesn't become a second test suite to maintain. Don't give the agent production credentials just to make a flow runnable.
 
 ## Sources
 
-Lauren Tan, *All Code Is Slop (Except Mine)*, [9:40–10:46](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=580s) (runtime artifacts, feature maps, and reusable drivers). See the [source review](../sources/lauren-tan-all-code-is-slop.md).
+Lauren Tan, *All Code Is Slop (Except Mine)*, [9:40–10:46](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=580s) (runtime artifacts, feature maps, and reusable drivers) and the [10:36 slide](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=636s) (pstack). See the [source review](../sources/lauren-tan-all-code-is-slop.md).

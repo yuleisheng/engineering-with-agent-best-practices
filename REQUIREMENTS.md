@@ -14,6 +14,7 @@ Keep one page per distinct practice under `practices/`. Revise an existing page 
 
 - **Use when:** Name a symptom or a decision that tells the reader whether to apply it.
 - **Apply:** Give the smallest useful first change and a check that could fail if it was done wrong. Reuse a repo's existing tools first. Include a copyable checklist, config, or `AGENTS.md` fragment when it saves time; mark what needs adapting.
+- **Source example:** If the source names a framework, library, or tool relevant to the practice, name it on the practice page and explain what the source used it for. Distinguish the example from a requirement to adopt it.
 - **Limits:** Say when to skip it, where it costs more than it saves, and what it doesn't prove. Distinguish a local rollout suggestion from a source claim.
 - **Sources:** Cite every practice directly, even if it has a separate source review. Cite the author and title, with a deep link to the relevant timestamp (and a readable time or range) for video. Link to the analysis that explains the verdict.
 

@@ -10,10 +10,14 @@
 
 Example diagnostic: `ui/ cannot import worker/internal/. Use the public client in worker/client/; move runtime-neutral types to contracts/.` Use the actual paths and run the check against both imports before enabling it.
 
+## Source example
+
+Tan's **Poteto pyramid** puts API design and automated checks ahead of prose for repeatable rules. In **Dune**, Grok Bot's internal client framework, the team allowed React's `useEffect` only in selected framework APIs and used lint diagnostics to point agents toward the underlying fix. That's an example of scoping an escape hatch, not a recommendation to ban `useEffect` in every React project.
+
 ## Limits
 
 A check enforces only what it measures. Don't encode a one-off preference as a lint rule or ban an API before there is a supported way to do the legitimate work. Keep prose for rationale and judgment, and human review for tradeoffs the check can't decide.
 
 ## Sources
 
-Lauren Tan, *All Code Is Slop (Except Mine)*, [2:03–2:56](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=123s) (code, checks, and prose) and [8:56–9:21](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=536s) (actionable diagnostics and API design). See the [source review](../sources/lauren-tan-all-code-is-slop.md).
+Lauren Tan, *All Code Is Slop (Except Mine)*, [2:03–2:56](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=123s) (Poteto pyramid), [5:34–6:07](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=334s) (Dune and React), and [8:56–9:21](https://www.youtube.com/watch?v=O_zcc6Xl12g&t=536s) (actionable lint diagnostics). See the [source review](../sources/lauren-tan-all-code-is-slop.md).
